@@ -175,6 +175,21 @@ export const showcaseEntries: ShowcaseEntry[] = [
     kind: "external",
   },
   {
+    id: "cloudconvert",
+    title: "CloudConvert",
+    shortDescription:
+      "Online-Konverter für Dokumente, Bilder, Audio, Video, Archive und viele weitere Dateiformate.",
+    longDescription:
+      "CloudConvert ist ein browserbasiertes Tool zum Konvertieren vieler Dateitypen. Es eignet sich für schnelle Formatwechsel bei Dokumenten, Bildern, Videos, Audiodateien, Archiven und weiteren Workflows, ohne lokal Spezialsoftware installieren zu müssen.",
+    category: "Converter",
+    author: "CloudConvert",
+    platform: "web",
+    tags: ["converter", "files", "documents", "images", "video", "audio", "web-app"],
+    icon: "https://cloudconvert.com/favicon.ico",
+    href: "https://cloudconvert.com",
+    kind: "external",
+  },
+  {
     id: "spliit",
     title: "Spliit",
     shortDescription:
