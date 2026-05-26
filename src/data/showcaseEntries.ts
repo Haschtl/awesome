@@ -54,6 +54,20 @@ export const showcaseEntries: ShowcaseEntry[] = [
     kind: "own",
   },
   {
+    id: "footer-iv",
+    title: "Footer IV",
+    shortDescription:
+      "Microcontroller MIDI-Pedal mit Web-BLE-Interface.",
+    longDescription:
+      "Footer IV ist ein MIDI-Pedal, das über Web-BLE konfiguriert wird. Es bietet 4 Fußschalter, 8 LEDs, 4 Displays, USB-C-Stromversorgung und MIDI-In/Out/Thru über BLE, DIN oder USB.",
+    category: "Music",
+    author: "Haschtl",
+    platform: "web",
+    tags: ["pedal", "music", "audio"],
+    href: "https://footer4.netlify.app/",
+    kind: "own",
+  },
+  {
     id: "guitar-chord-library",
     title: "guitar-chord-library",
     shortDescription:
@@ -155,7 +169,14 @@ export const showcaseEntries: ShowcaseEntry[] = [
     category: "3D Tool",
     author: "PlayCanvas",
     platform: "web",
-    tags: ["3d", "gaussian-splatting", "webgl", "webgpu", "visualization", "editor"],
+    tags: [
+      "3d",
+      "gaussian-splatting",
+      "webgl",
+      "webgpu",
+      "visualization",
+      "editor",
+    ],
     href: "https://superspl.at/",
     kind: "external",
   },
