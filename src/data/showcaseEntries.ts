@@ -160,6 +160,21 @@ export const showcaseEntries: ShowcaseEntry[] = [
     kind: "external",
   },
   {
+    id: "stirling-pdf",
+    title: "Stirling PDF",
+    shortDescription:
+      "Freie Adobe-Acrobat-Alternative zum Bearbeiten und Verarbeiten von PDFs im Browser.",
+    longDescription:
+      "Stirling PDF ist eine Web-App für PDF-Workflows wie Bearbeiten, Konvertieren, Zusammenführen, Aufteilen und weitere Dokumentenoperationen. Die App positioniert sich als kostenlose Adobe-Acrobat-Alternative und ist direkt im Browser nutzbar.",
+    category: "PDF Tool",
+    author: "Stirling",
+    platform: "web",
+    tags: ["pdf", "documents", "converter", "editor", "web-app"],
+    icon: "https://stirling.com/app/modern-logo/favicon.ico",
+    href: "https://stirling.com/app",
+    kind: "external",
+  },
+  {
     id: "supersplat",
     title: "SuperSplat",
     shortDescription:
