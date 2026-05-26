@@ -175,6 +175,21 @@ export const showcaseEntries: ShowcaseEntry[] = [
     kind: "external",
   },
   {
+    id: "photopea",
+    title: "Photopea",
+    shortDescription:
+      "Kostenloser Online-Bildeditor mit PSD-Support, Ebenen, Masken, Filtern und vielen Dateiformaten.",
+    longDescription:
+      "Photopea ist ein browserbasierter Foto- und Grafikeditor. Die App unterstützt professionelle Bearbeitung mit Ebenen, Masken, Smart Objects, Filtern, RAW-Dateien, Vektorgrafik und PSD-Dateien und läuft direkt im Browser ohne lokale Installation.",
+    category: "Design Tool",
+    author: "Photopea",
+    platform: "web",
+    tags: ["photo-editor", "design", "psd", "images", "graphics", "web-app"],
+    icon: "https://www.photopea.com/promo/icon512.png",
+    href: "https://www.photopea.com/",
+    kind: "external",
+  },
+  {
     id: "supersplat",
     title: "SuperSplat",
     shortDescription:
