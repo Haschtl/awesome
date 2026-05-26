@@ -175,6 +175,21 @@ export const showcaseEntries: ShowcaseEntry[] = [
     kind: "external",
   },
   {
+    id: "spliit",
+    title: "Spliit",
+    shortDescription:
+      "Web-App zum Teilen von Gruppenausgaben, Schulden und gemeinsamen Kosten.",
+    longDescription:
+      "Spliit ist eine browserbasierte App für Gruppen, die gemeinsame Ausgaben erfassen und sauber aufteilen wollen. Sie eignet sich für Reisen, WGs, Events und andere Situationen, in denen mehrere Personen Kosten transparent verrechnen müssen.",
+    category: "Finance Tool",
+    author: "Spliit",
+    platform: "web",
+    tags: ["expenses", "split-bills", "groups", "finance", "web-app"],
+    icon: "https://spliit.app/logo-with-text.png",
+    href: "https://spliit.app/",
+    kind: "external",
+  },
+  {
     id: "photopea",
     title: "Photopea",
     shortDescription:
