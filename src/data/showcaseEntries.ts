@@ -190,6 +190,35 @@ export const showcaseEntries: ShowcaseEntry[] = [
     kind: "external",
   },
   {
+    id: "diagrams-net",
+    title: "diagrams.net",
+    shortDescription:
+      "Browserbasierter Diagramm-Editor für Flowcharts, Architekturdiagramme, UML und Skizzen.",
+    longDescription:
+      "diagrams.net ist ein Web-Tool zum schnellen Erstellen von Diagrammen direkt im Browser. Es eignet sich für technische Skizzen, Prozessdiagramme, Architekturübersichten, UML, Mindmaps und einfache visuelle Dokumentation.",
+    category: "Diagram Tool",
+    author: "diagrams.net",
+    platform: "web",
+    tags: ["diagrams", "flowcharts", "uml", "architecture", "drawio", "web-app"],
+    icon: "https://app.diagrams.net/favicon.ico",
+    href: "https://app.diagrams.net/",
+    kind: "external",
+  },
+  {
+    id: "split-pro",
+    title: "Split Pro",
+    shortDescription:
+      "Open-source Split-Bill-App zum Aufteilen gemeinsamer Ausgaben auf eigener Infrastruktur.",
+    longDescription:
+      "Split Pro ist eine selbst hostbare App zum Erfassen und Aufteilen gemeinsamer Kosten. Das Projekt passt zu Gruppen-, Reise- und Haushalts-Workflows, bei denen Ausgaben transparent verwaltet werden sollen und die Anwendung serverseitig betrieben wird.",
+    category: "Finance Tool",
+    author: "oss-apps",
+    platform: "server",
+    tags: ["expenses", "split-bills", "self-hosted", "finance", "open-source"],
+    href: "https://github.com/oss-apps/split-pro",
+    kind: "external",
+  },
+  {
     id: "photopea",
     title: "Photopea",
     shortDescription:

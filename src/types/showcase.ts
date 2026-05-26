@@ -1,5 +1,5 @@
 export type ShowcaseKind = 'own' | 'external'
-export type Platform = "web" | "desktop" | "mobile-app" | "browser-plugin" | "cli" | "library"|"other";
+export type Platform = "web" | "desktop" | "mobile-app" | "browser-plugin" | "server" | "cli" | "library"|"other";
 
 export type ShowcaseEntry = {
   id: string

@@ -3,9 +3,9 @@ import './App.css'
 import { showcaseEntries } from './data/showcaseEntries'
 import type { ShowcaseEntry } from './types/showcase'
 
-type PlatformFilter = 'all' | 'mobile' | 'desktop' | 'web' | 'browser-plugin'
+type PlatformFilter = 'all' | 'mobile' | 'desktop' | 'web' | 'browser-plugin' | 'server'
 
-const platformOptions: PlatformFilter[] = ['all', 'mobile', 'desktop', 'web', 'browser-plugin']
+const platformOptions: PlatformFilter[] = ['all', 'mobile', 'desktop', 'web', 'browser-plugin', 'server']
 const fallbackIcon = `data:image/svg+xml;utf8,${encodeURIComponent(`
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72" fill="none">
     <rect width="72" height="72" rx="18" fill="#e2e8f0" />
@@ -70,6 +70,7 @@ const matchesPlatform = (
   if (platforms.includes('desktop') && platform === 'desktop') return true
   if (platforms.includes('web') && platform === 'web') return true
   if (platforms.includes('browser-plugin') && platform === 'browser-plugin') return true
+  if (platforms.includes('server') && platform === 'server') return true
   return false
 }
 
