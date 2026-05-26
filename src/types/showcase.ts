@@ -1,5 +1,5 @@
 export type ShowcaseKind = 'own' | 'external'
-export type SoftwareArt = 'web' | 'desktop' | 'mobile-app' | 'browser-plugin'
+export type Platform = "web" | "desktop" | "mobile-app" | "browser-plugin" | "cli" | "library"|"other";
 
 export type ShowcaseEntry = {
   id: string
@@ -8,10 +8,10 @@ export type ShowcaseEntry = {
   longDescription: string
   category: string
   author: string
-  softwareArt: SoftwareArt
+  platform: Platform
   tags: string[]
-  icon: string
-  previewImage: string
-  href: string
+  icon?: string
+  previewImage?: string
+  href?: string
   kind: ShowcaseKind
 }

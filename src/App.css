@@ -2,20 +2,6 @@
   animation: rise 0.7s cubic-bezier(0.2, 0.8, 0.2, 1) both;
 }
 
-.card-description {
-  display: -webkit-box;
-  -webkit-box-orient: vertical;
-  -webkit-line-clamp: 3;
-  overflow: hidden;
-}
-
-@media (min-width: 640px) {
-  .card-description {
-    display: block;
-    -webkit-line-clamp: unset;
-  }
-}
-
 @keyframes rise {
   from {
     opacity: 0;
