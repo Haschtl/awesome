@@ -114,7 +114,7 @@ export const showcaseEntries: ShowcaseEntry[] = [
     author: "Haschtl",
     platform: "mobile-app",
     tags: ["android", "tasker", "ble", "automation", "plugin"],
-    href: "https://haschtl.github.io/Tasker-Ble-Writer",
+    href: "https://github.com/haschtl/Tasker-Ble-Writer",
     kind: "own",
   },
   {
@@ -139,10 +139,24 @@ export const showcaseEntries: ShowcaseEntry[] = [
     longDescription:
       "Die OpenAI Platform ist hier als externer Referenzpunkt aufgenommen, weil sie für Prototyping, Textverarbeitung und agentische Automatisierung oft die schnellste Abkürzung ist. Im Portfolio funktioniert sie als klar verlinkter Technologie-Baustein.",
     category: "Tool",
-    author:"GPX Studio Team",
+    author: "GPX Studio Team",
     platform: "web",
     tags: ["navigation", "gpx", "maps", "web-app"],
     href: "https://gpx.studio/",
+    kind: "external",
+  },
+  {
+    id: "supersplat",
+    title: "SuperSplat",
+    shortDescription:
+      "Open-source Web-Plattform zum Bearbeiten, Veröffentlichen und Teilen von 3D Gaussian Splats.",
+    longDescription:
+      "SuperSplat beschreibt sich als zentrale Plattform für 3D Gaussian Splatting. Die Web-App deckt Bearbeiten, Publizieren, Teilen, Download und Browsing von Splats ab und richtet sich klar an 3D-, WebGL-, WebGPU- und Visualisierungs-Workflows im Browser.",
+    category: "3D Tool",
+    author: "PlayCanvas",
+    platform: "web",
+    tags: ["3d", "gaussian-splatting", "webgl", "webgpu", "visualization", "editor"],
+    href: "https://superspl.at/",
     kind: "external",
   },
 ];
